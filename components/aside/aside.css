@@ -1,0 +1,35 @@
+aside {
+  position: absolute;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 380px;
+  height: 670px;
+  top: 15vh;
+  left: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 57px -14px rgba(0, 0, 0, 0.75);
+  padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
+.dark aside {
+  box-shadow: 0px 0px 57px -14px rgba(255, 255, 255, 0.75);
+}
+
+.asideContainer {
+  position: relative;
+  display: block;
+}
+
+@media screen and (width <= 600px) {
+  aside {
+    position: relative;
+    width: 350px;
+    height: 100%;
+    top: 12vh;
+    left: 7%;
+    right: 5%;
+    padding: 1rem;
+    font-size: small;
+  }
+}

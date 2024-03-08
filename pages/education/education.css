@@ -1,0 +1,26 @@
+.educationSection img {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+  overflow: hidden;
+  background-color: var(--eri-color-background-primary);
+}
+
+.educationSection article {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.educationSection .educationData {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+
+@media screen and (width <= 600px) {
+  .educationSection article {
+    margin: 1rem;
+  }
+}

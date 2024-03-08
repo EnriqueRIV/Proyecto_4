@@ -1,0 +1,32 @@
+.experienceSection img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: var(--eri-color-background-primary);
+}
+
+.experienceSection article {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.experienceSection .experienceData {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+
+.experienceSection h3 {
+  margin-top: -5px;
+}
+
+@media screen and (width <= 600px) {
+  .experienceSection article {
+    justify-content: center;
+    margin: 1rem;
+  }
+}

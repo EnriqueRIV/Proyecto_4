@@ -1,0 +1,32 @@
+.contactSection {
+  padding: 0.2rem 0;
+  padding-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.contactSection a {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.contactSection p {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.contactSection > ul {
+  display: flex;
+  gap: 1rem;
+  padding-top: 0.2rem;
+}
+
+.contactSection > ul img {
+  height: 25px;
+  filter: opacity(90%);
+  background-color: var(--eri-color-background-primary);
+  border-radius: 50%;
+}

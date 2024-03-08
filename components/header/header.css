@@ -1,0 +1,87 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+}
+header button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  cursor: pointer;
+  border: none;
+}
+
+#darkmodeIcon {
+  font-variation-settings: 'FILL' 1;
+}
+
+.navLinkMobile {
+  display: none;
+}
+
+.navBar {
+  display: flex;
+  gap: 20px;
+}
+.navBar > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navBar > ul > li {
+  padding: 10px 0.5px;
+}
+
+.navLink {
+  color: inherit;
+  padding: 10px 7px;
+  background-color: var(--eri-color-background-secondary);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+  display: flex;
+  justify-content: end;
+}
+
+.navLink:focus {
+  text-decoration: underline;
+  background-color: var(--eri-color-background-terciary);
+  font-size: 17px;
+  transition: background-color 0.5s 0.1s ease-in-out, font-size 0.5s;
+}
+
+.dark header .navBar > ul > li > a {
+  background-color: var(--eri-color-background-quaternary);
+}
+
+.dark header .navLink:focus {
+  background-color: var(--eri-color-background-terciary);
+  text-decoration: underline;
+  font-size: 17px;
+  transition: background-color 0.5s ease-in-out, font-size 0.5s;
+}
+
+@media screen and (width <= 600px) {
+  .navText {
+    display: none;
+  }
+  .navLinkMobile {
+    display: inline-flex;
+  }
+}
