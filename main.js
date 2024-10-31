@@ -12,10 +12,6 @@ import { linkPages } from './utils/linkPages.js';
 Header();
 Aside();
 Footer();
-// Skills();
-// Experience();
-// Education();
-// Projects();
 
 Home();
 

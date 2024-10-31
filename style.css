@@ -74,7 +74,6 @@ body {
 
 @media screen and (width <= 770px) {
   main {
-    /* position: relative; */
     top: 12vh;
     left: 400px;
     right: 2%;
@@ -98,8 +97,11 @@ body {
 @media screen and (width <= 426px) {
   main {
     position: relative;
-    top: 16vh;
+    top: 10vh;
     width: 380px;
-    left: 2%;
+    left: 6%;
+  }
+  .home {
+    display: none;
   }
 }

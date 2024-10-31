@@ -1,7 +1,4 @@
 import './home.css';
-import { templateData as dataSection } from '/components/aside/dataSection.js';
-import { templateAbout as aboutSection } from '/components/aside/aboutSection.js';
-import { templateContact as contactSection } from '/components/aside/contactSection.js';
 
 const homeTemplate = () => {
   return `

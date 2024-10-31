@@ -133,6 +133,10 @@ export const data = {
       logo: '/images/nextjss.png'
     },
     {
+      name: 'Redux.js',
+      logo: '/images/redux.png'
+    },
+    {
       name: 'Typescript',
       logo: '/images/typescript.png'
     },
