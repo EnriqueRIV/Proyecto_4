@@ -1,3 +1,11 @@
+.experienceSection {
+  border-radius: 10px;
+  box-shadow: 0px 0px 57px -14px rgba(0, 0, 0, 0.75);
+  padding: 10px 15px;
+}
+.dark .experienceSection {
+  box-shadow: 0px 0px 57px -14px rgba(255, 255, 255, 0.75);
+}
 .experienceSection img {
   width: 100px;
   height: 70px;

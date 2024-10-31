@@ -1,12 +1,14 @@
 header {
   position: fixed;
   width: 100%;
+  max-width: 1024px;
   height: 4rem;
-  z-index: 10;
+  z-index: 11;
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 header button {
   display: flex;
@@ -20,6 +22,10 @@ header button {
   border: none;
 }
 
+#darkmodeBtn {
+  margin-right: 1rem;
+}
+
 #darkmodeIcon {
   font-variation-settings: 'FILL' 1;
 }
@@ -30,7 +36,8 @@ header button {
 
 .navBar {
   display: flex;
-  gap: 20px;
+  width: 100%;
+  gap: 0px;
 }
 .navBar > ul {
   display: flex;

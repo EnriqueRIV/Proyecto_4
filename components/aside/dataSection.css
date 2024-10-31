@@ -1,3 +1,7 @@
+.home .dataSection {
+  justify-content: space-around;
+}
+
 .dataSection {
   display: flex;
   justify-content: space-between;
@@ -49,6 +53,7 @@
 .contactPhoto {
   width: 100px;
   height: 100px;
+  transition: linear 1s;
 }
 
 .contactPhoto:hover img {

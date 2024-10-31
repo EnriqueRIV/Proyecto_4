@@ -3,7 +3,7 @@ import { data } from '/data/data.js';
 
 export const templateContact = () => {
   return `
-  <section class="contactSection">
+  <section class="contactSection actives">
   <h3>Contactame</h3>
   <a href="tel:+34642746821">  
   <p>

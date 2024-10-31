@@ -11,6 +11,11 @@
   align-items: center;
   padding: 5px;
 }
+.actives {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
 
 .contactSection p {
   display: flex;
@@ -29,4 +34,10 @@
   filter: opacity(90%);
   background-color: var(--eri-color-background-primary);
   border-radius: 50%;
+}
+
+@media screen and (width <= 426px) {
+  .actives {
+    flex-direction: column;
+  }
 }

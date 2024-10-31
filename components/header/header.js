@@ -10,6 +10,7 @@ const headerTemplate = () => {
   <li><a href="#" class="navLink" id="experienceLink" alt="Experiencia" title="Experiencia"><span class="navText">Experiencia</span><span class="material-symbols-outlined navLinkMobile">mindfulness</span></a></li>
   <li><a href="#" class="navLink" id="educationLink" alt="Educacion" title="Formación"><span class="navText">Formación</span><span class="material-symbols-outlined navLinkMobile">school</span></a></li>
   <li><a href="#" class="navLink" id="projectsLink" alt="Proyectos" title="Proyectos"><span class="navText">Proyectos</span><span class="material-symbols-outlined navLinkMobile">home_storage</span></a></li>
+  </ul>
   </nav>
   <button id="darkmodeBtn" title="Modo Noche"><img src="/icons/dark.svg" alt="Icono Modo Oscuro" id="darkmodeIcon"/></button>
   `;
@@ -17,6 +18,18 @@ const headerTemplate = () => {
 
 const themeSwitch = () => {
   document.body.classList.toggle('dark');
+  document.querySelector('.home ').classList.toggle('dark');
+  if (
+    document.querySelector(
+      '.skillsSection .experienceSection .educationSection .projectsSection'
+    )
+  ) {
+    document
+      .querySelector(
+        '.skillsSection .experienceSection .educationSection .projectsSection'
+      )
+      .classList.toggle('dark');
+  }
 };
 
 const listeners = () => {

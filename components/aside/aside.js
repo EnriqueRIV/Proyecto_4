@@ -5,10 +5,12 @@ import { templateContact as contactSection } from '/components/aside/contactSect
 
 const template = () => {
   return `
+  <div class="home active">
   <div class="asideContainer">
   ${dataSection()}
   ${aboutSection()}
   ${contactSection()}
+</div>
 </div>
  `;
 };

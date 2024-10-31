@@ -1,8 +1,18 @@
+.projectsSection {
+  border-radius: 10px;
+  box-shadow: 0px 0px 57px -14px rgba(0, 0, 0, 0.75);
+  padding: 10px 5px;
+}
+.dark .projectsSection {
+  box-shadow: 0px 0px 57px -14px rgba(255, 255, 255, 0.75);
+}
 .projectsBox {
   display: flex;
+  align-items: center;
   overflow: hidden;
   width: 540px;
-  height: 14.5rem;
+  height: 15.5rem;
+  border-radius: 15px;
 }
 
 #guideContainer {
@@ -13,12 +23,12 @@
   width: 80%;
   display: none;
 }
-@media screen and (width <= 600px) {
+@media screen and (width <= 770px) {
   .projectsBox {
-    width: 370px;
+    width: 330px;
     align-items: center;
     justify-content: left;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     height: 100%;
   }
 
@@ -29,5 +39,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
+}
+@media screen and (width <= 426px) {
+  .projectsBox {
+    width: 370px;
+    margin: 0;
   }
 }

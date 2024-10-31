@@ -181,7 +181,7 @@ export const data = {
       logo: '/images/fullstack.gif'
     }
   ],
-  projects: [
+  projects_1: [
     {
       title: 'Diseño página de Inicio Web E-commerce',
       description:
@@ -209,14 +209,37 @@ export const data = {
         'Réplica de la web Pinterest, es responsive, muestra imágenes aleatorias y tiene el buscador totalmente funcional.',
       link: 'https://effortless-kelpie-20b6e7.netlify.app/',
       preview: '/images/copyFinterestRes.jpg'
+    }
+  ],
+  projects_2: [
+    {
+      title: 'API de Juegos Cortos',
+      description:
+        'Web con juegos cortos, diseño y desarrollo concebido para poder entretenerse en cualquier tamaño de dispositivo, PC, Tablet o Movil',
+      link: 'https://erigames.netlify.app/',
+      preview: '/images/gamesRes.jpg'
     },
     {
-      title: 'Portafolio CV Website',
+      title: 'APP Gestora de Eventos',
       description:
-        'Descripción en una página Web sobre la hoja de Vida y algunos de los proyectos personales en programación.',
-      link: 'http://github.com/#',
-      preview:
-        'https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2071'
+        'Web Gestora de eventos en la cual los usuarios se registran, crean, publican eventos y a la vez pueden inscribirse para asistir a sus preferidos.',
+      link: 'https://events-app-front-ten.vercel.app/',
+      preview: '/images/eventsRes.jpg'
+    },
+    {
+      title: 'APP sobre Cocktails (SPA)',
+      description:
+        'Web informativa sobre Cocktails realizada como SPA (single page application).',
+      link: 'https://aboutcocktails.netlify.app/',
+      preview: '/images/cocktailsRes.jpg'
     }
+    // {
+    //   title: 'Portafolio CV Website',
+    //   description:
+    //     'Descripción en una página Web sobre la hoja de Vida y algunos de los proyectos personales en programación.',
+    //   link: 'http://github.com/#',
+    //   preview:
+    //     'https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2071'
+    // }
   ]
 };

@@ -1,0 +1,13 @@
+.homeSection {
+  position: absolute;
+  left: -200px;
+  top: 360px;
+  display: none;
+}
+.optionContainer {
+  margin-top: 4px;
+}
+.optionContainer > ul {
+  display: flex;
+  gap: 50px;
+}

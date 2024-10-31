@@ -1,18 +1,10 @@
-aside {
-  position: absolute;
+.active {
+  width: 944px;
+  height: 350px;
   display: flex;
-  align-items: start;
-  justify-content: center;
-  width: 380px;
-  height: 670px;
-  top: 15vh;
-  left: 40px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 57px -14px rgba(0, 0, 0, 0.75);
-  padding: 1rem 1.5rem 2rem 1.5rem;
 }
 
-.dark aside {
+.dark .home {
   box-shadow: 0px 0px 57px -14px rgba(255, 255, 255, 0.75);
 }
 
@@ -21,15 +13,15 @@ aside {
   display: block;
 }
 
-@media screen and (width <= 600px) {
-  aside {
-    position: relative;
-    width: 350px;
+@media screen and (width <= 770px) {
+  .active {
+    width: 668px;
     height: 100%;
-    top: 12vh;
-    left: 7%;
-    right: 5%;
-    padding: 1rem;
-    font-size: small;
+  }
+}
+@media screen and (width <= 426px) {
+  .active {
+    width: 320px;
+    height: 670px;
   }
 }
