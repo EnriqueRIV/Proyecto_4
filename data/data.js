@@ -17,12 +17,12 @@ export const data = {
       graduationYear: 2024,
       logo: '/images/thePowerLarge_1.jpg'
     },
-    {
-      degree: 'Master en Desarrollo Fullstack',
-      university: 'The Power Business School - España',
-      graduationYear: 2024,
-      logo: '/images/thePowerLarge_1.jpg'
-    },
+    // {
+    //   degree: 'Master en Desarrollo Fullstack',
+    //   university: 'The Power Business School - España',
+    //   graduationYear: 2024,
+    //   logo: '/images/thePowerLarge_1.jpg'
+    // },
     {
       degree: 'MBA - Master en Dirección y Administración de Empresas',
       university:
@@ -101,16 +101,24 @@ export const data = {
       logo: '/images/javas.png'
     },
     {
+      name: 'JavaScript',
+      logo: '/images/jsss.png'
+    },
+    {
+      name: 'C#',
+      logo: '/images/csharp.png'
+    },
+    {
+      name: '.Net',
+      logo: '/images/puntonet.png'
+    },
+    {
       name: 'Php',
       logo: '/images/phpb.png'
     },
     {
       name: 'Phyton',
       logo: '/images/phyton.jpg'
-    },
-    {
-      name: 'JavaScript',
-      logo: '/images/jsss.png'
     },
     {
       name: 'React',
@@ -121,40 +129,76 @@ export const data = {
       logo: '/images/angular.png'
     },
     {
-      name: 'Node.js',
-      logo: '/images/nodejs.png'
+      name: 'Vue.js',
+      logo: '/images/vuejss.png'
     },
     {
-      name: 'Express.js',
-      logo: '/images/expressjs.png'
-    },
-    {
-      name: 'Next.js',
-      logo: '/images/nextjss.png'
-    },
-    {
-      name: 'Redux.js',
-      logo: '/images/redux.png'
-    },
-    {
-      name: 'Typescript',
-      logo: '/images/typescript.png'
-    },
-    {
-      name: '.Net',
-      logo: '/images/puntonet.png'
-    },
-    {
-      name: 'C#',
-      logo: '/images/csharp.png'
+      name: 'Webpack',
+      logo: '/images/webpack.png'
     },
     {
       name: 'Vite',
       logo: '/images/vites.jpg'
     },
     {
-      name: 'Vue.js',
-      logo: '/images/vuejss.png'
+      name: 'Bootstrap',
+      logo: '/images/bootstrap.png'
+    },
+    {
+      name: 'Typescript',
+      logo: '/images/typescript.png'
+    },
+    {
+      name: 'Next.js',
+      logo: '/images/nextjss.png'
+    },
+    {
+      name: 'Electron.js',
+      logo: '/images/electron.png'
+    },
+    {
+      name: 'Node.js',
+      logo: '/images/nodejs.png'
+    },
+    {
+      name: 'Spring Boot',
+      logo: '/images/springboot.png'
+    },
+    {
+      name: 'Express.js',
+      logo: '/images/expressjs.png'
+    },
+    {
+      name: 'Redux.js',
+      logo: '/images/redux.png'
+    },
+    {
+      name: 'Figma',
+      logo: '/images/figma.png'
+    },
+    {
+      name: 'Emotion.js',
+      logo: '/images/emotion.png'
+    },
+    {
+      name: 'Styled Components',
+      logo: '/images/styledcomponents.png'
+    },
+    {
+      name: 'AWS Cloud',
+      logo: '/images/aws.jpg'
+    },
+    {
+      name: 'Vercel',
+      logo: '/images/vercel.png'
+    },
+    {
+      name: 'Netlify',
+      logo: '/images/netlify.png'
+    },
+    {
+      name: 'Cloudinary',
+      logo: '/images/cloudinary.png'
     },
     {
       name: 'MongoDB',
@@ -173,12 +217,56 @@ export const data = {
       logo: '/images/postgre.png'
     },
     {
-      name: 'RESTful API',
-      logo: '/images/restfulapi.png'
-    },
-    {
       name: 'Git',
       logo: '/images/git.png'
+    },
+    {
+      name: 'GitHub',
+      logo: '/images/github.png'
+    },
+    {
+      name: 'GitLab',
+      logo: '/images/gitlab.png'
+    },
+    {
+      name: 'Jenkins',
+      logo: '/images/jenkins.png'
+    },
+    {
+      name: 'Docker',
+      logo: '/images/docker.png'
+    },
+    {
+      name: 'Kubernetes',
+      logo: '/images/kubernetes.jpg'
+    },
+    {
+      name: 'Prestashop',
+      logo: '/images/prestashop.png'
+    },
+    {
+      name: 'Shopify',
+      logo: '/images/shopify.png'
+    },
+    {
+      name: 'Magento',
+      logo: '/images/magento.png'
+    },
+    {
+      name: 'Salesforce',
+      logo: '/images/salesforce.png'
+    },
+    {
+      name: 'Odoo',
+      logo: '/images/odoo.png'
+    },
+    {
+      name: 'Autotask',
+      logo: '/images/autotask.jpg'
+    },
+    {
+      name: 'RESTful API',
+      logo: '/images/restfulapi.png'
     },
     {
       name: 'Frontend and Backend Development',

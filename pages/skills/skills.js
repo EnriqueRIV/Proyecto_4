@@ -30,11 +30,17 @@ const skillsTemplate = () => {
     <article class="skillsSoft">
     <p><span>Trabajo en Equipo</span></p>
     <p><span>Liderazgo</span></p>
+    <p><span>Proactividad</span></p>
     <p><span>Trabajo Bajo Presión</span></p>
     <p><span>Dedicación</span></p>
+    <p><span>Colaboración</span></p>
     <p><span>Resolución de Conflictos</span></p>
     <p><span>Pensamiento Crítico</span></p>
     <p><span>Integridad</span></p>
+    <p><span>Gestión de Personal</span></p>
+    <p><span>Adaptabilidad</span></p>
+    <p><span>Creatividad</span></p>
+    <p><span>Persuación</span></p>
     </article>
     </section>
 `;
