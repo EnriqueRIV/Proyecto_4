@@ -52,12 +52,21 @@ export const data = {
   ],
   workExperience: [
     {
+      position: 'Consultor / Freelance',
+      company: '',
+      startDate: '2023',
+      endDate: 'A la fecha',
+      description:
+        'Diseño S.Seguridad, Diseño y Desarrollo de Aplicaciones Web (Rest Api), Microservicios, integraciones, utilizando las herramientas siguientes: Springboot, Java, JavaScript, React, Angular, PHP, Vite, Typescript, Figma, Chakra UI, Emotion, Electron, Styled Components, Node, Express, Redux, SQL, Oracle, MongoDB, Vercel, Netlify, Cluodinary, Github, Jenkins, Shopify, Autocad, Testing.',
+      logo: '/images/freelancer.jpg'
+    },
+    {
       position: 'Gerente Comercial y de Ingeniería',
       company: 'Función Digital SRL.',
       startDate: '2018',
       endDate: '2023',
       description:
-        'Gestión de los Departamentos y Equipos Comercial, de Preventa e Ingeniería en Software y Sistemas de Corrientes Débiles. Manejo de Clientes Corporativos (Adhesión, Desarrollo, Fidelización).',
+        'Gestión de los Departamentos y Equipos Comercial, de Preventa e Ingeniería en Software y Sistemas de Corrientes Débiles. Manejo de Clientes Corporativos (Adhesión, Desarrollo, Fidelización), Adaptación de Software (Frontend Backend Dev), utilizando: Springboot, Java, Javascript, React, Angular, Phyton, PHP, Vite, Typescript, Node, Express, Redux, Figma, Emotion, Styled Components, Chackra UI,Next, Electron, SQL, Oracle, MongoDb, AWS, Vercel, Netlify, Cloudinary, Github, Docker, Kubernetes, Jenkins, Prestashop, Odoo, siguiendo metodología SCRUM con Testing y CI/CD.',
       logo: '/images/funcionDigital1.png'
     },
     {
@@ -66,7 +75,7 @@ export const data = {
       startDate: '2013',
       endDate: '2018',
       description:
-        'Gestión del Area de Diseño y Preventa de Soluciones de BAS (Building Automation System) a nivel Corporativo. Adaptación de Software, Elaboración de Pliegos de Especificaciones Técnicas, Elaboración de Presupuestos.',
+        'Gestión del Area de Diseño y Preventa de Soluciones de BAS (Building Automation System) a nivel Corporativo. Adaptación de Software, Elaboración de Pliegos de Especificaciones Técnicas, Elaboración de Presupuestos, Adaptación de Software (Frontend Backend Dev), utilizando: Springboot, Java, Javascript, React, Angular, Phyton, PHP, C#, .Net, Webpack, Typescript, Node, Express, SQL, Oracle, AWS, Vercel, Github, Docker, Kubernetes, Jenkins, Shopify, Magento, Autotask, Salesforce siguiendo metodología Agile con Testing y CI/CD.',
       logo: '/images/telis.png'
     },
     {
@@ -75,7 +84,7 @@ export const data = {
       startDate: '2012',
       endDate: '2013',
       description:
-        'Gestión del Departamento de Desarrollo de Software, DIseño y Desarrollo de Sistemas, Módulos ERP, CRM, contables y a medida.',
+        'Gestión del Departamento de Desarrollo de Software, DIseño y Desarrollo de Sistemas, Módulos ERP, CRM, contables y a medida, utilizando las siguientes herramientas: Java, Javascript, Angular, Phyton, PHP, C#, .Net, Webpack, Typescript, Node, Express, SQL, NoSQL, Oracle, MariaDB, MongoDB, AWS, Jenkins, Prestashop, Salesforce con Testing, CI/CD.',
       logo: '/images/7hd.jpg'
     },
     {
@@ -83,7 +92,8 @@ export const data = {
       company: 'Gobierno Autónomo Departamental de Santa Cruz.',
       startDate: '2010',
       endDate: '2012',
-      description: '',
+      description:
+        'Evaluación, Elaboración de Pliegos de Especificaciones Técnicas, Instalación, Configuración y Administración de Switches, Routers, APs, Firewalls, Enlaces PP PMP, Telf. IP de Cisco, Juniper, Checkpoint, Ubiquiti, Radwin más de 1500 usuarios',
       logo: '/images/gobernacionscz.png'
     }
   ],

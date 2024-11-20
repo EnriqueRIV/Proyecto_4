@@ -15,7 +15,7 @@ ${data.workExperience
   <div class="experienceData">
     <h3>${item.startDate} - ${item.endDate}</h3>
     <h3>${item.company}</h3>
-    <p>${item.position}</p>
+    <h3>${item.position}</h3>
     <p>${item.description}</p>
   </div>
 </article>
